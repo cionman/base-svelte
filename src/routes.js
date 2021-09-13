@@ -61,6 +61,11 @@ import options_accesor from './examples/60_특별한요소_options_accessors.sve
 import tweened from './examples/61_애니메이션_tweened.svelte'
 import router from './examples/62_svelte-spa-router.svelte'
 import 전후처리기 from './examples/63_전_후_처리기(svelte-preprocess).svelte'
+import unittest_jest from './examples/64_Unit_Test_Jest.svelte'
+import webtestrunner from './examples/65_Web_Test_Runner.svelte'
+import devtools from './examples/66_Svelte_Devtools.svelte'
+import 투두예제2 from './examples/67_Todo_예제_불필요한리렌더링방지.svelte'
+import 투두예제3 from './examples/68_Todo_Virtual_list.svelte'
 
 const routes = {
   '/1': 선언적랜더링,
@@ -126,6 +131,11 @@ const routes = {
   '/61': tweened,
   '/62': router,
   '/63': 전후처리기,
+  '/64': unittest_jest,
+  '/65': webtestrunner,
+  '/66': devtools,
+  '/67': 투두예제2,
+  '/68': 투두예제3,
 }
 
 export default routes

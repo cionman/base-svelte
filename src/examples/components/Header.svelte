@@ -534,6 +534,22 @@
                 Svelte Devtools
             </a>
         </li>
+        <li>
+            <a
+                    href="/67"
+                    use:link
+                    use:active>
+                Todo_예제_불필요한리렌더링방지
+            </a>
+        </li>
+        <li>
+            <a
+                    href="/68"
+                    use:link
+                    use:active>
+                Todo Virtual list
+            </a>
+        </li>
 
     </ol>
 
