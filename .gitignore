@@ -2,3 +2,7 @@
 /public/build/
 .idea/
 .DS_Store
+cypress/plugins
+cypress/screenshots
+cypress/support
+cypress/videos

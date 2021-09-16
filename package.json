@@ -5,19 +5,29 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "sirv public --no-clear",
+    "cy:open": "npm run dev | cypress open",
+    "cy:run": "npm run dev | cypress run",
+    "test": "jest --watch src"
   },
   "devDependencies": {
+    "@babel/core": "7.15.5",
+    "@babel/preset-env": "7.15.6",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-json": "4.1.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "@testing-library/svelte": "3.0.3",
     "axios": "0.21.4",
+    "babel-jest": "27.1.1",
+    "cypress": "8.3.1",
+    "jest-transform-svelte": "2.1.1",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^7.0.0",
     "rollup-plugin-terser": "^7.0.0",
     "svelte": "^3.0.0",
+    "svelte-jester": "2.1.2",
     "svelte-spa-router": "3.2.0"
   },
   "dependencies": {
