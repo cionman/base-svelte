@@ -27,6 +27,7 @@
 '  export let count = 0\n' +
 '</script>'}
 </pre>
+<div>{count}</div>
 <button on:click={() => console.log(count)}>
     Total count log!
 </button>

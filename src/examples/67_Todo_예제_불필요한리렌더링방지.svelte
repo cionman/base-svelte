@@ -46,5 +46,5 @@
 </button>
 
 {#each $todos as todo (todo.id)}
-    <Todo {todos} {todo} onDelete={deleteTodo}/>
+    <Todo {todo} onDelete={deleteTodo}/>
 {/each}

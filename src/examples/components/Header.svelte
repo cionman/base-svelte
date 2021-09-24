@@ -551,6 +551,23 @@
             </a>
         </li>
 
+        <li>
+            <a
+                    href="/69"
+                    use:link
+                    use:active>
+                Todo Jest test
+            </a>
+        </li>
+        <li>
+            <a
+                    href="/70"
+                    use:link
+                    use:active>
+                여행앱 cypress 테스트
+            </a>
+        </li>
+
     </ol>
 
 </header>

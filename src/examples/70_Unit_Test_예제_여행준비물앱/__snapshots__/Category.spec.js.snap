@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Category should match snapshot 1`] = `
+<body>
+  <div>
+    <section>
+      <h2>
+        <span>
+          Clothes
+        </span>
+         
+        <span
+          class="status"
+        >
+          1 of 2 remaining
+        </span>
+         
+        <button
+          class="icon"
+        >
+          🗑
+        </button>
+      </h2>
+       
+      <form>
+        <label>
+          New Item
+      
+          <input
+            data-testid="item-input"
+            required=""
+          />
+        </label>
+         
+        <button>
+          Add Item
+        </button>
+      </form>
+       
+      <ul>
+        <div>
+          <li>
+            <input
+              aria-label="Toggle Packed"
+              type="checkbox"
+            />
+             
+            <span
+              class="packed-false"
+              draggable="true"
+            >
+              shoes
+            </span>
+             
+            <button
+              class="icon"
+              data-testid="delete"
+            >
+              🗑
+            </button>
+          </li>
+           
+        </div>
+        <div>
+          <li>
+            <input
+              aria-label="Toggle Packed"
+              type="checkbox"
+            />
+             
+            <span
+              class="packed-true"
+              draggable="true"
+            >
+              socks
+            </span>
+             
+            <button
+              class="icon"
+              data-testid="delete"
+            >
+              🗑
+            </button>
+          </li>
+           
+        </div>
+      </ul>
+    </section>
+     
+    <dialog
+      class="dialog"
+    >
+      <header>
+         
+        <div
+          class="title"
+        >
+          Category
+        </div>
+         
+        <button
+          class="close-btn"
+        >
+          ✖
+        </button>
+      </header>
+       
+      <section>
+        <div>
+          
+        </div>
+      </section>
+    </dialog>
+  </div>
+</body>
+`;

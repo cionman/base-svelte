@@ -66,6 +66,8 @@ import webtestrunner from './examples/65_Web_Test_Runner.svelte'
 import devtools from './examples/66_Svelte_Devtools.svelte'
 import 투두예제2 from './examples/67_Todo_예제_불필요한리렌더링방지.svelte'
 import 투두예제3 from './examples/68_Todo_Virtual_list.svelte'
+import 투두예제4 from './examples/69_Todo_Test_example/TodoList.svelte'
+import 여행앱 from './examples/70_Unit_Test_예제_여행준비물앱/App.svelte'
 
 const routes = {
   '/1': 선언적랜더링,
@@ -136,6 +138,8 @@ const routes = {
   '/66': devtools,
   '/67': 투두예제2,
   '/68': 투두예제3,
+  '/69': 투두예제4,
+  '/70': 여행앱,
 }
 
 export default routes

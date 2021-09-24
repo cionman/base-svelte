@@ -1,7 +1,6 @@
 <script>
   import { afterUpdate, beforeUpdate, onDestroy, onMount } from 'svelte'
 
-  export let todos // Store!
   export let todo
   export let onDelete
 
@@ -17,7 +16,6 @@
   }
   function updateTodo() {
     todo.title = title
-    //$todos = $todos
     offEdit()
   }
 

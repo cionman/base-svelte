@@ -1,24 +1,24 @@
-const baseUrl = 'http://localhost:5000/#/';
+const baseUrl = 'http://localhost:5000/#/69';
 
 describe('Todo app', () => {
   it('should add todo', () => {
     cy.visit(baseUrl);
     cy.contains('1 of 2 remaining');
-    // "Add" button should be disabled until text is entered.
+    // 문자가 입력되기 전까지 Add 버튼 비활성화
     cy.contains('Add')
-      .as('addBtn')
+      .as('addBtn') // 나중에 사용할 수 있도록 참조를 저장
       .should('be.disabled');
 
     // Enter todo text.
     const todoText = 'buy milk';
-    cy.get('[data-testid=todo-input]')
+    cy.get('[data-testid=todo-input]') //할일 입력
       .as('todoInput')
       .type(todoText);
 
-    cy.get('@addBtn').should('not.be.disabled');
+    cy.get('@addBtn').should('not.be.disabled');  //disable이 아님
     cy.get('@addBtn').click();
 
-    cy.get('@todoInput').should('have.value', ''); // cleared
+    cy.get('@todoInput').should('have.value', ''); // 입력후 입력란이 비어 있음
     cy.get('@addBtn').should('be.disabled');
     cy.contains(todoText);
     cy.contains('2 of 3 remaining');
